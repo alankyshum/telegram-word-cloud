@@ -8,6 +8,7 @@ authors = ["Alan Shum <kshum@linkedin.com>"]
 python = "^3.8"
 pyhanlp = "^0.1.66"
 pandas = "^1.1.2"
+pymaybe = "^0.1.6"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

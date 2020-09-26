@@ -116,6 +116,14 @@ version = "0.1.66"
 jpype1 = "0.7.0"
 
 [[package]]
+category = "main"
+description = "A Python implementation of the Maybe pattern."
+name = "pymaybe"
+optional = false
+python-versions = "*"
+version = "0.1.6"
+
+[[package]]
 category = "dev"
 description = "Python parsing module"
 name = "pyparsing"
@@ -181,7 +189,7 @@ python-versions = "*"
 version = "0.2.5"
 
 [metadata]
-content-hash = "1a27f24a94e138705a07ecf2e8aeec9193f1b947f17526008e1fa0c47c7adf2f"
+content-hash = "712cef9b10d9c0e99623c02027fe3a840a7ebb7321124b58fa09c2e956142cdd"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -273,6 +281,10 @@ py = [
 ]
 pyhanlp = [
     {file = "pyhanlp-0.1.66.tar.gz", hash = "sha256:d0888aabf07daedbc0eb9962d0b2ab5ca167376682cfad3752cc9ba3c3891be5"},
+]
+pymaybe = [
+    {file = "pymaybe-0.1.6-py2.py3-none-any.whl", hash = "sha256:01d0f71b98e1c155ecfecd9db44ce49f37ae374b5cb8f1d27c0ee00c3d7aa4dd"},
+    {file = "pymaybe-0.1.6.tar.gz", hash = "sha256:77ed1602e1b9e8b05dccd0d84891ede4ee2004728170e52af7f9c08d4c62378c"},
 ]
 pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},
